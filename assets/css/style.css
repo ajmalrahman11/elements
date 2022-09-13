@@ -1,0 +1,343 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+h3 {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h6 {
+    margin: auto 66px;
+}
+
+h6:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #fff;
+    left: -17%;
+    top: 50%;
+    position: absolute;
+}
+
+p {
+    font-size: 15px;
+    color: black;
+    text-align: start;
+}
+
+img {
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    color: #ffcc00;
+    background-color: black;
+    border: none;
+    border-radius: 5px !important;
+}
+
+/* navbar */
+
+/* .container-fluid{
+    justify-content: space-between;
+} */
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-nav a {
+    font-weight: 600;
+    color: #ffcc00;
+}
+
+/* part-1 */
+
+.part-1 {
+    background-image: url(../img/bgs/part-1.jpg);
+
+    /* Background image is centered vertically and horizontally at all times */
+    /* background-position: center center; */
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when
+the content's height is greater than the image's height */
+    /* background-attachment: fixed; */
+
+    /* This is what makes the background image rescale based
+on the container's size */
+    /* background-size: cover; */
+
+    /* Set a background color that will be displayed
+while the background image is loading */
+    /* background-color: #464646; */
+}
+
+.abt-part1 {
+    padding: 100px 0 50px;
+}
+
+.part-1 h3 {
+    font-weight: 700;
+}
+
+/* dining */
+
+.dining {
+    background-image: url(../img/bgs/part-2-2.jpg);
+    margin-top: -60px;
+    background-repeat: no-repeat;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.dining h3 {
+    font-weight: 700;
+    position: relative;
+}
+
+/* .dining h3::after {
+    content: "";
+    border: 3px solid black;
+    position: absolute;
+    width: 85%;
+} */
+
+.dining-img {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* stay */
+
+.stay {
+    background-image: url(../img/bgs/the-stay.jpg);
+    background-repeat: no-repeat;
+}
+
+.stay h3 {
+    font-weight: 700;
+    color: white;
+}
+
+.stay p {
+    color: white;
+}
+
+/* part-4 */
+
+.part-4 {
+    background-image: url(../img/bgs/part-4.jpg);
+}
+
+.part-4 h3 {
+    font-weight: 700;
+    color: white;
+}
+
+.part-4 p {
+    color: white;
+}
+
+.text-box {
+    background-color: #0000005e;
+    border-radius: 5px;
+    padding: 20px 30px !important;
+}
+
+/* contact-part */
+
+.contact-part {
+    background-image: url(../img/bgs/contact-bg.jpg);
+}
+
+.contact-part h6 {
+    color: white;
+    font-weight: 600;
+    position: relative;
+}
+
+.contact-part h6:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #fff;
+    left: -7%;
+    top: 50%;
+    position: absolute;
+}
+
+.contact-part h2 {
+    color: #ffcc00;
+    font-weight: 700;
+}
+
+.contact-part p {
+    color: aliceblue;
+}
+
+.contact-part a button {
+    padding: 10px 155px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 0px;
+    font-weight: 700;
+}
+
+.contact-part a button:hover {
+    padding: 10px 155px;
+    background-color: #ffcc00;
+    color: black;
+}
+
+/* address-part */
+
+.address-part {
+    background-color: #1A4531;
+    color: white;
+}
+
+.address-part h6 {
+    color: white;
+    font-weight: 600;
+    position: relative;
+}
+
+/* .address-part h6::before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    left: 0;
+    top: 50%;
+    position: absolute;
+} */
+
+.address-part h2 {
+    color: #ffcc00;
+    font-weight: 700;
+}
+
+.address-part h4 {
+    font-weight: 700;
+
+}
+
+/* footer */
+
+.footer-top {
+    background-color: #141111;
+    border-radius: 5px;
+}
+
+.footer-top:hover {
+    background-color: #e2be71;
+    color: #000;
+}
+
+.footer-top:hover h3 {
+    background-color: #e2be71;
+    color: #000;
+}
+
+.footer-top h3 {
+    color: white;
+}
+
+.icons-class-footer-top i {
+    font-size: 2rem;
+    color: white;
+}
+
+.icons-class-footer-top i:hover {
+    font-size: 2rem;
+    color: black;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    padding: 7px 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #141111;
+}
+
+.footer-links ul li a:hover {
+    color: #ffcc00;
+}
+
+.footer-cont {
+    justify-content: space-around;
+}
+
+#foot-con {
+    display: flex;
+}
+
+#fo-co {
+    margin-left: 19px;
+}
+
+.icon-lead {
+    margin-left: 10px;
+}
+
+.footer-contact {
+    margin: 10px 0;
+}
+
+.footer-contact:hover a,i {
+    color: #ffcc00;
+}
+
+.footer-contact a {
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: red;
+}
+
+footer a:hover{
+    color: #ffcc00;
+}
+
+/* media-query */
+
+@media only screen and (max-width:600px) {
+    .navbar-logo-class {
+        justify-content: center;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 16px;
+    }
+}
